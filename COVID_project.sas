@@ -58,7 +58,7 @@ data cohort_dx;
     if dx_date > '31DEC2022'd then delete;
 run;
 
-/* Deleting duplicate entries of patient_number (Identifier) and dx_date (date of diagnosis)
+/* Deleting duplicate entries of patient_number (Identifier) and dx_date (date of diagnosis) */
 proc sort data=cohort_dx out=cohort_dx NODUPKEY;
     by patient_num dx_date;
 run;
@@ -194,7 +194,7 @@ data cohort;
     drop _NAME_;
 run;
 
-/* Now we'd like to find the soonest COVID-19 diagnosis after their respective vaccines (depending on if they're in the flu only or COVID group)
+/* Now we'd like to find the soonest COVID-19 diagnosis after their respective vaccines (depending on if they're in the flu only or COVID group) */
 
 data cohort;
     set cohort;
