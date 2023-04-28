@@ -186,7 +186,7 @@ run;
 /* ----------------------------------- form cohort -------------------------------- */
 
 
-/* We now can merge all the created datasets - COVID-19 diagnosis + flu vaccine info + covid vaccine info.
+/* We now can merge all the created datasets - COVID-19 diagnosis + flu vaccine info + covid vaccine info. */
 data cohort;
     merge cohort_dx cohort_flu covid_vacc;
     by patient_num;
