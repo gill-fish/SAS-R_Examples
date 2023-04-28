@@ -424,7 +424,7 @@ proc export data=master outfile="../cohort.csv" replace dbms=csv;
 run;
 
 
-/* This creates descriptive statistic tables in .RTF format. I send these to PI in my other projects */
+/* This creates descriptive statistic tables in .RTF format. I send these to PI. */
 %yamgast(dat=master, grp=reinfection_180,
     vlist=
     age\medR meanSD\
