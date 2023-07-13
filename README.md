@@ -1,7 +1,7 @@
 # SAS-R_Examples
 A compilation of personal code samples from the SAS and R programming language. 
 
-The .sas files run analysis on data pulled from the TriNetX database. This information comes as de-indentified patient information
+Data used in these analyses are pulled from the TriNetX database. This information comes as de-indentified patient information
 where multiple .csv files with different information must be combined and manipulated. 
 
 *forest.sas* - Project code which creates a logistic regression macro, extracts the OR & 95% CI from all 30 variables against the outcome, and builds a forest plot. This uses
