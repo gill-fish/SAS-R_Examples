@@ -17,7 +17,7 @@ where multiple .csv files with different information must be combined and manipu
 *diagnosis_match.sas* - A SAS data analysis example with a focus on writing macros to generate datasets. This
                       code was used in the Sickle Cell Disease research project that I do data analysis for.
                       
-*Multiple_Regression_AssignmentEX.pdf* - This is an assignemnt I completed in a statistical models class this semester which
-                                       focuses on multiple regression. This assignemnt highlights model diagnostics, box-cox
+*Multiple_Regression_AssignmentEX.pdf* - This is an assignment I completed in a statistical models class which
+                                       focuses on multiple regression. This assignment highlights model diagnostics, box-cox
                                        transformations, and stepwise variable selection.
                                        This file is a pdf generated from R Markdown (.rmd).
