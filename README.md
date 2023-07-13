@@ -4,6 +4,11 @@ A compilation of personal code samples from the SAS and R programming language.
 The .sas files run analysis on data pulled from the TriNetX database. This information comes as de-indentified patient information
 where multiple .csv files with different information must be combined and manipulated. 
 
+*forest.sas* - Project code which creates a logistic regression macro, extracts the OR & 95% CI, and builds a forest plot. This uses
+               proc logistic, proc sgplot, and SAS macros. 
+
+*forest.png* - Forest plot generated from forest.sas
+
 *Covid_project.sas* - a SAS data analysis example from an in-class, roleplay project. The question of
                     interest and rationale for analysis steps are featured as comments in this file.
                     The end of this file also shows extraction of descriptive statistics and regression
